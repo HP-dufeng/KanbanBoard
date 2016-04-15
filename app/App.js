@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import KanbanBoard from './KanbanBoard';
+import KanbanBoardContainer from './KanbanBoardContainer';
 
 let cardsList = [
     {
@@ -38,4 +38,4 @@ let cardsList = [
     },
 ];
 
-ReactDOM.render(<KanbanBoard cards={cardsList} />, document.getElementById('root'));
+ReactDOM.render(<KanbanBoardContainer />, document.getElementById('root'));
